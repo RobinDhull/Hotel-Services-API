@@ -2,7 +2,7 @@
 ## Technologies Used
 **ASP.NET CORE, MongoDb**
 
-#About API
+## About API
 A hotel would like to make its additional services (“products”,  e.g. bicycle rental ) bookable online. These are offered by the hotel. Each additional service has a name, a description and a price. Also, multiple images can be stored for each of these services. 
 
 This API has following features:
