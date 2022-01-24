@@ -38,15 +38,5 @@ namespace HotelServices.Services
         {
             _hotelServices.ReplaceOne(hotelService => hotelService.Id == id, hotelService);
         }
-
-        public byte[] GetImage(string imageByteString)
-        {
-            byte[] imageBytes = null;
-            if (!string.IsNullOrEmpty(imageByteString))
-            {
-                imageBytes = Convert.FromBase64String(imageByteString);
-            }
-            return imageBytes;
-        }
     }
 }
